@@ -3,6 +3,12 @@ body {
   overflow-x: hidden;
 }
 
+.button-group {
+  display: flex;       /* Make it a flex container */
+  gap: 10px;           /* Space between buttons (adjust as needed) */
+  margin-top: 15px;    /* Matches your existing top spacing */
+}
+
 .layout_margin {
   margin-top: 90px;
   margin-bottom: 90px;
@@ -461,7 +467,7 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   background-color: #f3f0af;
-  color: #f3f0af;
+  color: #285824;
   padding: 10px 40px;
   border: 1px solid #f3f0af;
   border-radius: 0;
@@ -474,7 +480,7 @@ a:focus {
 .about_section .detail-box a:hover {
   background-color: #ffffff;
   border-color: #ffffff;
-  color: #f3f0af;
+  color: #40813b;
 }
 
 .about_section .img-box {

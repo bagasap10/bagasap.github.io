@@ -677,8 +677,18 @@ a:focus {
   margin: 25px 0;
 }
 
+.team_section .team_box .img-box {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
 .team_section .team_box .img-box img {
   width: 100%;
+  height: auto;
+  display: block;
 }
 
 .team_section .team_box .detail-box {
